@@ -1,7 +1,7 @@
 # Lab Project 04 - Azure Cognitive Search: Utilizando AI Search para indexação e consulta de Dados
 
 
-![Static Badge](https://img.shields.io/badge/Status_Projeto:-Em_andamento_(21/Mar/2024)-orange)
+![Static Badge](https://img.shields.io/badge/Status_Projeto:-Concluído_(27/Mar/2024)-green)
 
 
 ![Static Badge](https://img.shields.io/badge/Inteligência_Artificial_(IA)-blue)
@@ -18,10 +18,10 @@
 O objetivo desse laboratório é testar algumas ferramentas de indexação, pesquisa e *document intelligence* com o recurso Azure AI Search. Esses procedimentos foram realizados como parte do **Bootcamp Microsoft Azure AI Fundamentals, da DIO**.
 
 
-**Document Intelligence** é uma das áreas em que a aplicação de **inteligência artificial** se mostra muito útil e eficaz. É um conceito que envolve a aplicação de diversas ferramentas de processamento de documentos, tornando possível extrair suas informações de forma muito mais eficiente ao permitir o entendimento do que elas representam. Dentre essas ferramentas, pode-se citar o uso de OCR (Optical Character Recognition), a fim de identificar texto em imagens de recibos ou outros documentos digitalizados; indexação de conteúdos, o que os torna pesquisáveis dentro de uma base de dados; extração de frases-chave e dados de forma automática e até mesmo análise de sentimentos, como em casos de comentários e avaliações.
+**Document Intelligence** é uma das áreas em que a aplicação de **inteligência artificial** se mostra muito útil e eficaz. É um conceito que envolve a aplicação de diversas ferramentas de **processamento de documentos**, tornando possível **extrair suas informações** de forma muito mais eficiente ao permitir o **entendimento do que elas representam**. Dentre essas ferramentas, pode-se citar o uso de OCR (Optical Character Recognition), a fim de identificar texto em imagens de recibos ou outros documentos digitalizados; indexação de conteúdos, o que os torna pesquisáveis dentro de uma base de dados; extração de frases-chave e dados de forma automática e até mesmo análise de sentimentos, como em casos de comentários e avaliações.
 
 
-Nesse laboratório, utilizo algumas técnicas de Document Intelligence para desenvolver uma solução de ***mining knowledge***, a fim de obter insights* de avaliações de consumidores de uma loja de café fictícia. Isso foi feito construindo um **Azure AI Search index** através dessas avaliações.
+Nesse laboratório, utilizo algumas técnicas de Document Intelligence para desenvolver uma solução de ***mining knowledge***, a fim de obter *insights* de avaliações de consumidores de uma loja de café fictícia. Isso foi feito construindo um **Azure AI Search index** através dessas avaliações.
 
 
 Esses experimentos foram baseados nos guias da Microsoft Learn. Para informações mais detalhadas, consulte a página [Explore an Azure AI Search index (UI)](https://microsoftlearning.github.io/mslearn-ai-fundamentals/Instructions/Labs/11-ai-search.html).
@@ -38,7 +38,7 @@ Para realizar o procedimento de Document Intelligence desse exercício são nece
 
 - Azure AI Search: esse recurso gerencia a indexação e pesquisa dos documentos.
 - Azure AI Services: esse recurso contém as funcionalidades de IA necessárias para enriquecer os dados dos documentos com insights.
-- Storage account: É o recurso no qual os documentos estão armazenados (em blob containers).
+- Storage account: É o recurso no qual os documentos estão armazenados (em *blob containers*).
 
 
 ### Upload dos dados e criação do Index
